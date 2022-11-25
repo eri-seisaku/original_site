@@ -2,24 +2,26 @@
 </script>
 
 <template>
-  <header id="header">
+  <div css="wrapper">
     <div class="home-content">
       <h1>Welcome to the Sky Village</h1>
       <div class="lang-box">
-        <a class="button" href="#">Japanese</a>
-        <a class="button" href="#">French</a>
-        <a class="button" href="#">English</a>
+        <a class="button" href="home">Japanese</a>
+        <a class="button" href="fr">French</a>
+        <a class="button" href="en">English</a>
       </div>
     </div><!-- /.home-content -->
     <div class="video-area">
       <video id="video" poster="../../assets/movie.jpg" webkit-playsinline playsinline muted autoplay loop>
-        <source src="../../assets/movie/movie.mp4" type="video/mp4">
-        <source src="../../assets/movie/movie.ogv" type="video/ogv">
+        <source src="../../assets/movie/sample-movie.mp4" type="video/mp4">
+        <!--
+        <source src="../../assets/movie/sample-movie.ogv" type="video/ogv">
         <source src="../../assets/movie/movie.webm" type="video/webm">
+        -->
         <p>動画を再生できる環境ではありません。</p>
       </video>
     </div>
-  </header>
+  </div>
 </template>
 
 <style scoped>
@@ -43,9 +45,9 @@ img{
     max-width: 100%;
 }/* 画像が親要素より大きくなることを防ぐ */
 
-/* HEADER
+/* 動画
 ----------------------------------*/
-#header {
+.wrapper {
   position: fixed;
   z-index: -1;
   top: 0;

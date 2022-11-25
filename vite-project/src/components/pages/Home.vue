@@ -4,23 +4,18 @@
 <template>
   <div id="home" class="big-bg">
          <header class="page-header wrapper">
-         <h1><a href="#"><img class="logo" src="../../assets/logo.png" alt=""></a></h1>
+         <h1 class="logo"><a href="#">ロゴ</a></h1>
          <nav>
              <ul class="main-nav">
-                 <li><a href="news.html">News</a></li>
-                 <li><a href="menu.html">Menu</a></li>
-                 <li><a href="contact.html">Contact</a></li>
+                 <li><a href="news.html">お知らせ</a></li>
+                 <li><a href="menu.html">メニュー</a></li>
+                 <li><a href="contact.html">お問合せ</a></li>
              </ul>
           </nav>
       </header>
       
          <div class="home-content wrapper">
-            <!-- <h2 class="page-title">Welcome to the sky village</h2> -->
-            <div class="lang-box">
-                <a class="button" href="#">メニューを見る</a>
-                <a class="button" href="#">メニューを見る</a>
-                <a class="button" href="#">メニューを見る</a>
-            </div>
+            <p>テキストテキストテキストテキスト</p>
          </div><!-- /.home-content -->
       </div><!-- /.home-content -->
 </template>
@@ -41,6 +36,7 @@ li {
 }
 a{
     text-decoration: none;
+    color:#432;
 }/* <a>に初期CSSを解除 */
 img{
     max-width: 100%;
@@ -72,7 +68,7 @@ img{
     margin-left: 36px;
 }
 .main-nav a{
-    color:#000;
+    color:#432;
 }
 .main-nav a:hover{
     color:#0bd;
@@ -110,7 +106,7 @@ img{
 
 /* 大きな背景画像 */
 #home{
-    background: url(../../assets/main-bg.png) no-repeat top center/cover;
+    background-color: #fff;
     min-height: 100vh;
 }
 #home .page-title{

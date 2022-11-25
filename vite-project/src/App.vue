@@ -1,10 +1,11 @@
 <script setup>
+/*
 import Home from './components/pages/Home.vue'
-import Movie from './components/pages/Movie.vue'
+import Movie from './components/pages/Movie.vue'*/
 </script>
 
 <template>
-  <Movie />
+  <router-view />
 </template>
 
 <style>
