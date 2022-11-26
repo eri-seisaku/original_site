@@ -15,7 +15,7 @@
       <video id="video" poster="../../assets/movie.jpg" webkit-playsinline playsinline muted autoplay loop>
         <source src="../../assets/movie/sample-movie.mp4" type="video/mp4">
         <!--
-        <source src="../../assets/movie/sample-movie.ogv" type="video/ogv">
+        <source src="../../assets/movie/sample-movie.ogv" type="video/ogg">
         <source src="../../assets/movie/movie.webm" type="video/webm">
         -->
         <p>動画を再生できる環境ではありません。</p>

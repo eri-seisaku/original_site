@@ -12,6 +12,7 @@
     "firebase": "^9.14.0",
     "google-fonts-webpack-plugin": "^0.4.4",
     "vite-plugin-fonts": "^0.6.0",
+    "vue-i18n": "^8.28.2",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
